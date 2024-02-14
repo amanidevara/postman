@@ -16,7 +16,31 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "https://graph.facebook.com/{{api_version}}/me/accounts?fields=name,access_token,tasks,instagram_business_account&access_token={{user_access_token}}",
+							"protocol": "https",
+							"host": [
+								"graph",
+								"facebook",
+								"com"
+							],
+							"path": [
+								"{{api_version}}",
+								"me",
+								"accounts"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "name,access_token,tasks,instagram_business_account"
+								},
+								{
+									"key": "access_token",
+									"value": "{{user_access_token}}"
+								}
+							]
+						}
 					},
 					"response": []
 				}

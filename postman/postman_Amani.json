@@ -7,7 +7,20 @@
 	"item": [
 		{
 			"name": "New Folder",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "8583d529-ccec-43fd-a038-dca98e58abe5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "139d1a93-625b-4d25-a49a-32de9c43214e"
 		},
 		{
